@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/TechifyBots/Auto_Filter_Bot.git",
-    "repository": "https://github.com/TechifyBots/Auto_Filter_Bot.git",
+    "website": "https://telegram.me/EmptyJohan",
+    "repository": "https://telegram.me/EmptyJohan",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
