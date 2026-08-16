@@ -6,7 +6,7 @@ class script(object):
 <blockquote><i>✨ ꜱᴇᴀʀᴄʜ ᴀɴʏ ᴀɴɪᴍᴇ ᴄᴏɴᴛᴇɴᴛ ɪɴ ꜱᴇᴄᴏɴᴅꜱ.</i></blockquote></b>"""
 
     ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://telegram.me/{}>{}</a>
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/ComicArc'>ʀᴀʜᴜʟ</a> 
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/EmptyJohan'>𝐽𝑜ℎ𝑎𝑛</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -227,7 +227,7 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
 
-💳 <a href='https://TechifyBots.github.io/PayWeb'>ᴘᴀʏ ᴡɪᴛʜ ᴜᴘɪ</a>
+💳 <a href='https://telegram.me/EmptyJohan'>ᴘᴀʏ ᴡɪᴛʜ ᴜᴘɪ</a>
 
 💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 
