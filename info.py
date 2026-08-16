@@ -28,8 +28,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003842048266'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1004399236697'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1004450804087'))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003410022595').split()]
-AUTH_CHANNELS = [int(ch) for ch in environ.get("AUTH_CHANNELS", "").split() if ch and id_pattern.match(ch)]
-AUTH_REQ_CHANNELS = [int(ch) for ch in environ.get("AUTH_REQ_CHANNELS", "-1002832859116").split() if ch and id_pattern.match(ch)]
+AUTH_CHANNELS = [int(ch) for ch in environ.get("AUTH_CHANNELS", "-1002832859116").split() if ch and id_pattern.match(ch)]
+AUTH_REQ_CHANNELS = [int(ch) for ch in environ.get("AUTH_REQ_CHANNELS", "-1003584231926").split() if ch and id_pattern.match(ch)]
 REQST_CHANNEL = int(ch) if (ch := environ.get("REQST_CHANNEL", "-1004387931399")) and id_pattern.search(ch) else None
 SUPPORT_CHAT_ID = int(ch) if (ch := environ.get("SUPPORT_CHAT_ID", "")) and id_pattern.search(ch) else None
 
@@ -71,7 +71,7 @@ FAST_MODE = is_enabled(environ.get('FAST_MODE', "False"), False)
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 MAX_BTNS = environ.get("MAX_BTNS", "5")
 MSG_ALRT = environ.get('MSG_ALRT', '𝖲𝗁𝖺𝗋𝖾 & 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖬𝖾 ♥️')
-DELETE_TIME = int(environ.get("DELETE_TIME", "300"))
+DELETE_TIME = int(environ.get("DELETE_TIME", "1200"))
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.CAPTION}")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = int(environ.get("MAX_LIST_ELM") or 10) or None # Maximum number of elements in a list (default: 10, set 0 for no limit)
@@ -87,7 +87,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', True))
-BUTTON_MODE = is_enabled((environ.get('BUTTON_MODE', "False")), False)
+BUTTON_MODE = is_enabled((environ.get('BUTTON_MODE', "True")), False)
 STREAM_MODE = bool(environ.get('STREAM_MODE', False))
 PREMIUM_STREAM_MODE = bool(environ.get('PREMIUM_STREAM_MODE', False))
 MAINTENANCE = is_enabled(environ.get('MAINTENANCE', "False"), False)
