@@ -14,9 +14,9 @@ def is_enabled(value, default):
         return default
 
 SESSION = environ.get('SESSION', 'techifybots')
-API_ID = int(environ.get('API_ID', '26420105'))
-API_HASH = environ.get('API_HASH', '993a821e86b1c05a68247003e4adfa94')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8942602084:AAFCrJMbtTHcxuW7Dl8izkB80rYl5egtOqk")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 INDEX_CAPTION = bool(environ.get('INDEX_CAPTION', True))
 COVER = bool(environ.get('COVER', False))
@@ -37,7 +37,7 @@ OWNER = int(os.environ.get("OWNER", "7826299591"))
 CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+YusxIpZPQ-s4MDFl')
 GROUP_LINK = environ.get('GROUP_LINK', 'https://t.me/+gJH8-fWmjGsxMDQ1')
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tgjiro441_db_user:Tgjirosamkun@cluster0.9reqco1.mongodb.net/?appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False)
